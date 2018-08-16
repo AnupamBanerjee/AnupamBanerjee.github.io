@@ -10,6 +10,10 @@
     <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="static/css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Adding the favicon in title -->
+    <link rel="shortcut icon" href="static/arts/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="static/arts/favicon.ico" type="image/x-icon">
     
     <title>Anupam Banerjee</title>
   </head>
@@ -35,7 +39,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-4">
                         <div class="row">
                             <div class="col"><h4><a href="https://www.linkedin.com/in/anupambanerjee4link" target="_blank"><i class="fab fa-linkedin" data-toggle="tooltip" data-placement="bottom" title="Redirect to LinkedIn account"></i></a></h4></div>
-                            <div class="col"><h4><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Redirect to Github account"></i></h4></div>
+                            <div class="col"><h4><a href="https://github.com/AnupamBanerjee" target="_blank"><i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Redirect to Github account"></i></h4></div>
                             <div class="col"><h4><a href="https://thoughtsandcodesblog.wordpress.com/" target="_blank"><i class="fab fa-wordpress" data-toggle="tooltip" data-placement="bottom" title="Redirect to my blog"></i></a></h4></div>
                             <div class="col"><h4><a href="/static/cv/AnupamBanerjee.pdf" downlod="AnupamBanerjee" target="_blank"><i class="fas fa-file-download" data-toggle="tooltip" data-placement="bottom" title="Download the resume as pdf"></i></a></h4></div>
                         </div>
@@ -86,7 +90,7 @@
                     <br/>
                     <h4>LEARNING IN PROGRESS</h4>
                     <p>
-                        <i class="fas fa-angle-right"></i>&nbsp;Ansible<br/>
+                        <i class="fas fa-angle-right"></i>&nbsp;Ansible - Linux server and NetApp storage configuration automation.<br/>
                         <i class="fas fa-angle-right"></i>&nbsp;Container technology and Docker<br/>
                         <i class="fas fa-angle-right"></i>&nbsp;Preparing for AWS Certified Solutions Architect – Associate certification<br/>
                     </p>
@@ -119,10 +123,12 @@
                     <p>
                     <b>Storage Network (NAS and SAN) Configuration, Operations and Monitoring</b><br/>
                     <i class="fas fa-angle-right"></i>&nbsp;Configuration, administration and Maintenance of NetApp Filers and Clusters including the management of iSCSI/FCP Networks, switches and ATTO bridges in a global storage infrastructure.<br/>
+                    <i class="fas fa-angle-right"></i>&nbsp;NetApp cluster DATA ONTAP upgrade, Brocade Switch and ATTO bridges farmware update. <br/>
                     <i class="fas fa-angle-right"></i>&nbsp;Data Protection - Snapshot, Snapmirror, Snapvault, Snap Restore, Volume Copy, NDMP copy, Deduplication.<br/>
                     <i class="fas fa-angle-right"></i>&nbsp;Storage & Server performance monitoring and health check-up.<br/>
                     <i class="fas fa-angle-right"></i>&nbsp;Basic configuration and administration of EMC VNX and IBM storage systems.
                     <br/><br/>
+
                     <b>Development of WebAutoUI (Completed)</b><br/>
                     <b>Technology Used</b> - Django, Python, HTML, CSS, JavaScript, Bootstrap, Python Modules (Paramiko)<br/>
                     <b>Details</b> - A web based tool, developed on Django web framework with SQLite database that can run
@@ -130,6 +136,7 @@
                     resolution time by 50%. It features role based authentication and strict JavaScript data validation that
                     removes human error during handing critical systems.
                     <br/><br/>
+
                     <b>Development of Smart-Inventory (Completed)</b><br/>
                     <b>Technology Used</b> - Django, Python, HTML, CSS, JavaScript, Bootstrap, Putty, Python Modules (xlrd,
                     reportlab)<br/>
@@ -138,17 +145,29 @@
                     functional putty embedded into the tool provides fast SSH connection to remote systems and export
                     data to PDF features helps to download filtered results in PDF format.
                     <br/><br/>
+
                     <b>Development of scripts to automate periodic log collection from NetApp storage devices (Completed)</b><br/>
                     <b>Technology Used</b> - Python, Python Modules (xlrd, reportlab, pandas)<br/>
                     <b>Details</b> - Developed multiple scripts for automatic and periodic log collection for NetApp storage
                     systems and Brocade switches. All the scripts are designed to provide automatic mail updates with
                     graphical representation of log data.
                     <br/><br/>
+
                     <b>Development of Scripts to perform requests and tasks (Completed)</b><br/>
                     <b>Technology Used</b> - Python Modules (Paramiko)<br/>
                     <b>Details</b> - Developed multiple python and bash shell scripts to perform specific task and configuration
                     changes in NetApp storage boxes like LUN provision, CIFS share/ NFS export creation etc. These scripts
                     provide a quick and easy way to perform a predefined task.
+                    <br/><br/>
+
+                    <b>Ansible playbook creation for Linux servers (In testing phase)</b><br/>
+                    <b>Technology Used</b> - Ansible, Ansible playbook, Ansible modules(apt, dnf, yum, easy_install, pip etc.)<br/>
+                    <b>Details</b> - Developed few Ansible playbooks for installing and testing packages and tools in multiple Linux servers (Mainly Ubuntu) simultaneously.
+                    <br/><br/>
+
+                    <b>Ansible playbook creation for NetApp clusters configuration automation (In testing phase)</b><br/>
+                    <b>Technology Used</b> - Ansible, Ansible playbook, Ansible modules(NetApp cDot modules like na_cdot_license, na_cdot_user etc.)<br/>
+                    <b>Details</b> - Developed few Ansible playbooks for rapid implemention of basic configurations like licenses installing, creating SVM, provisioning volumes and user creation in multiple NetApp cDot Clustes.
                     </p>    
                     <br/>
                     <h4>ACADEMIC CREDENTIALS</h4>
@@ -156,7 +175,7 @@
                       <b>Year</b> - 2015<br/>
                       <b>Degree</b> - B-Tech<br/>
                       <b>DGPA</b> - 8.44<br/>
-                      <b>University</b> - Maulana Abul Kalam Azad University of Technology, W.B. (WBUT)<br/><br/>
+                      <b>University</b> - Maulana Abul Kalam Azad University of Technology, W.B. (Formerly known as WBUT)<br/><br/>
                   
                       <b>Year</b> - 2010<br/>
                       <b>Degree</b> - Class XII<br/>
